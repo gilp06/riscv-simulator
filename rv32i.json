@@ -1,0 +1,144 @@
+{
+    "instruction_set": "RV32I",
+    "0010011": {
+        "000": {
+            "instruction": "addi"
+        },
+        "010": {
+            "instruction": "slti"
+        },
+        "011": {
+            "instruction": "sgti"
+        },
+        "111": {
+            "instruction": "andi"
+        },
+        "110": {
+            "instruction": "ori"
+        },
+        "100": {
+            "instruction": "xori"
+        },
+        "001": {
+            "instruction": "slli"
+        },
+        "101": {
+            "0000000": {
+                "instruction": "srli"
+            },
+            "0100000": {
+                "instruction": "srai"
+            }
+        }
+    },
+    "0110111": {
+        "instruction": "lui"
+    },
+    "0010111": {
+        "instruction": "auipc"
+    },
+    "0110011": {
+        "000": {
+            "0000000": {
+                "instruction": "add"
+            },
+            "0100000": {
+                "instruction": "sub"
+            }
+        },
+        "010": {
+            "0000000": {
+                "instruction": "slt"
+            }
+        },
+        "011": {
+            "0000000": {
+                "instruction": "sltu"
+            }
+        },
+        "111": {
+            "0000000": {
+                "instruction": "and"
+            }
+        },
+        "110": {
+            "0000000": {
+                "instruction": "or"
+            }
+        },
+        "001": {
+            "0000000": {
+                "instruction": "sll"
+            }
+        },
+        "101": {
+            "0000000": {
+                "instruction": "srl"
+            },
+            "0100000": {
+                "instruction": "sra"
+            }
+        }
+    },
+    "1101111": {
+        "instruction": "jal"
+    },
+    "1100111": {
+        "000": {
+            "instruction": "jalr"
+        }
+    },
+    "1100011": {
+        "000": {
+            "instruction": "beq"
+        },
+        "001": {
+            "instruction": "bne"
+        },
+        "100": {
+            "instruction": "blt"
+        },
+        "110": {
+            "instruction": "bltu"
+        },
+        "101": {
+            "instruction": "bge"
+        },
+        "111": {
+            "instruction": "bgeu"
+        }
+    },
+    "0000011": {
+        "010": {
+            "instruction": "lw"
+        },
+        "001": {
+            "instruction": "lh"
+        },
+        "101": {
+            "instruction": "lhu"
+        },
+        "000": {
+            "instruction": "lb"
+        },
+        "100": {
+            "instruction": "lbu"
+        }
+    },
+    "0100011": {
+        "010": {
+            "instruction": "sw"
+        },
+        "001": {
+            "instruction": "sh"
+        },
+        "000": {
+            "instruction": "sb"
+        }
+    },
+    "0001111": {
+        "000": {
+            "instruction": "fence"
+        }
+    }
+}
